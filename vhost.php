@@ -1,10 +1,10 @@
 #!/usr/bin/php
 <?php
 
-	$hosts_file 				= '/etc/hosts';
+	$hosts_file					= '/etc/hosts';
 	$config_file				= '/etc/vhosts.conf';
 	$apache_sites_file	= '/etc/apache2/sites-enabled/vhosts.conf';
-	$apache_restart_cmd = '/etc/init.d/apache2 restart';
+	$apache_restart_cmd	= '/etc/init.d/apache2 restart';
 	$install_path				= '/usr/local/bin/vhost';
 
 	function println($txt = ''){
